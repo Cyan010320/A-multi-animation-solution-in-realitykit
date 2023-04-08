@@ -9,7 +9,7 @@ As you tried, entity.availableAnimations.count is always 1. The README offers a 
 4. Now you get a very long animation. press shift+F9, click `Blender file`, in `action` directory, delete all animation files, except the first animation. (tips: you can use shift+left click to multiple select)
 5. Now the fbx model just have a long animation. Export the model to glTF(leave texture alone temporarily). Then you'll get a model with blank texture.
 6. Open Reality Converter, drag the model into it, then add texture from your texture directory, at last, export it as USDZ file.
-7. Open your RealityKit projext, in Experience.rcproject, import your USDZ model. You can set trigger to play animation. (not necessary)
+7. Open your RealityKit project, in Experience.rcproject, import your USDZ model. You can set trigger to play animation. (not necessary)
 8. Go back to xcode code editing view. Now solve the avaiableAnimations problem. 
 
 First cut the long animation:
